@@ -21,6 +21,7 @@
       }
       p{
         font-family: "Lexend Deca", sans-serif;
+        height: 117px;
         opacity: 0.75;
       }
       .c1round{
@@ -57,7 +58,7 @@
         background-color: transparent;
         color: #fff;
       }
-      @media (max-width: 770px) {
+      @media (max-width: 767px) {
        #card1{
         border-radius: 10px 10px 0 0;
        }
