@@ -1,0 +1,69 @@
+      a{
+        text-decoration: none;
+      }
+      body{
+        font-size: 15px;
+      }
+      .card1{
+        background-color: hsl(31, 77%, 52%);
+      }
+      .card2{
+       background-color:  hsl(184, 100%, 22%);
+      }
+      .card3{
+        background-color:  hsl(179, 100%, 13%);
+      }
+      .row{
+        color: #fff;
+      }
+      h1{
+        font-family: 'Big Shoulders Display', cursive;
+      }
+      p{
+        font-family: "Lexend Deca", sans-serif;
+        opacity: 0.75;
+      }
+      .c1round{
+        border-radius: 10px 0  0 10px ;
+        
+      }
+      .c2round{
+        border-radius: 0 0 0 0;
+      }
+      .c3round{
+        border-radius: 0 10px 10px 0 ;
+      }
+      .btn-1{
+        background-color: #fff;
+        color:  hsl(31, 77%, 52%);
+      }
+      .btn-1:hover{
+        background-color: transparent;
+        color: #fff;
+      }
+      .btn-2{
+        background-color: #fff;
+        color:  hsl(184, 100%, 22%) ;
+      }
+      .btn-2:hover{
+        background-color: transparent;
+        color: #fff;
+      }
+      .btn-3{
+        background-color: #fff;
+        color: hsl(179, 100%, 13%);
+      }
+      .btn-3:hover{
+        background-color: transparent;
+        color: #fff;
+      }
+      @media (max-width: 770px) {
+       #card1{
+        border-radius: 10px 10px 0 0;
+       }
+       #card3{
+        border-radius: 0 0 10px 10px;
+       }
+      }
+
+     
